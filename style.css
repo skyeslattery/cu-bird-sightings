@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Background*/
+
+body {
+    background-image: url("background.png");
+    height: 956px;
+    width: 1710px;
+}
+
+/*Logo near text on right*/
+
+img {
+    position: absolute;
+    top: 390px;
+    left: 1270px;
+    width: 70px;
+    height: auto;
+}
+
+/*Text on right side*/
+
+h1 {
+    position: absolute;
+    top: 420px; 
+    left: 1350px;
+    color: #b31b1b;
+}
+
+p{
+    position: absolute;
+    top: 480px; 
+    left: 1280px;
+    color: #b31b1b;
+    font-size: 19px;
+}
+
+/*Items on left side*/
+
+p.leftSide {
+    position: absolute;
+    top: 475px; 
+    left: 250px;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    margin-top: 360px;
+}
+
+/*Button to go to map*/
+
+.button {
+    position: absolute;
+    border: .8px solid white;
+    background: rgba(224, 49, 49, .2);
+    padding: 10px 20px;
+    font-size: 30px;
+    color: white;
+    top: 410px; 
+    left: 425px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #a31919;
+    transition: .25s;
+}
+
+/*Header elements*/
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    display: flex;
+    padding: 25px 48px;
+}
+
+h2.name{
+    position: absolute;
+    top: 25px; 
+    left: 48px;
+    color: white;
+    cursor: pointer;
+    font-size: 35px;
+}
+
+.logo {
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.navbar a {
+    font-size: 25px;
+    color: #b31b1b;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a:hover{
+    color: #a31919; 
+}

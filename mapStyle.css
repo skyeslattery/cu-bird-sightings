@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Background*/
+
+body {
+    height: 100vh;
+    background: linear-gradient(
+        to top,
+        #b31b1b 0%,
+        #b31b1b 50%,
+        white 50%,
+        white 100%
+    );
+}
+
+/*Map and directions button*/
+
+#map {
+    height: 800px;
+    width: 1200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+button.dirBut {
+    background-color: white;
+    border: 1px black;
+    color: black;
+    cursor: pointer;
+}
+
+/*Header elements*/
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    display: flex;
+    padding: 25px 48px;
+}
+
+a.name{
+    font-family: inherit;
+    background: none;
+    border: none;
+    color: #b31b1b;
+    cursor: pointer;
+    position: absolute;
+    text-decoration: none;
+    top: 25px; 
+    left: 48px;
+    font-size: 25px;
+}
+
+.logo {
+    font-size: 32px;
+    color: #b31b1b;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.navbar a {
+    font-size: 25px;
+    color: #b31b1b;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a:hover{
+    color: #a31919; 
+}
+
+/*About Us Page*/
+
+.about h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #b31b1b;
+}
+
+.about img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about p {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+/*Contact Us Page*/
+
+.contactUs h1 {
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: #b31b1b;
+    font-size: 38px;
+}
+
+.contactUs p {
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size: 23px;
+}
+
+  .contactUs .instagram {
+    height: 200px;
+    width: auto;
+    position: absolute;
+    top: 35%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .contactUs .github {
+    height: 200px;
+    width: auto;
+    position: absolute;
+    top: 35%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .contactUs .linkedin {
+    height: 200px;
+    width: auto;
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .contactUs .twitter {
+    height: 200px;
+    width: auto;
+    position: absolute;
+    top: 70%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+  }
+
+  .contactUs img {
+    cursor: pointer;
+  }
